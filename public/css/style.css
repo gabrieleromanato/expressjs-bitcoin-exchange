@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #fff;
+    color: #000;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input, select {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,'Helvetica Neue', sans-serif;
+    font-size: 1em; 
+    -webkit-appearance: none;
+}
+
+#change-form {
+    width: 400px;
+    padding: 0 1em;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        display: block;
+    }
+
+    #change-form {
+        width: auto;
+        margin: 2.5em auto;
+    }
+}
+
+#change-form div {
+    margin: 1.2em 0;
+}
+
+#change-form select {
+    display: block;
+    box-sizing: border-box;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 2px;
+}
+
+#change-form input[type=submit] {
+    background: #000;
+    color: #fff;
+    padding: 8px 18px;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    border-radius: 2px;
+}
